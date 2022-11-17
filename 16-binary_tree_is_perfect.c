@@ -2,8 +2,6 @@
 
 int num_of_nodes(const binary_tree_t *tree);
 int power(int x, int n);
-size_t binary_tree_height(const binary_tree_t *tree);
-int binary_tree_is_perfect(const binary_tree_t *tree);
 
 /**
  * binary_tree_is_perfect - Checks if a binary tree is perfect.
@@ -38,8 +36,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
  */
 int power(int x, int n)
 {
-	int y;
-
 	if (n == 0)
 		return (1);
 
